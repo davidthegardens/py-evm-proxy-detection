@@ -13,4 +13,4 @@ const target = await detectProxyTarget(
   requestFunc
 )
 
-console.log(JSON.stringify(target)) // logs "0x4bd844F72A8edD323056130A86FC624D0dbcF5b0"
+console.log(JSON.stringify(target))

@@ -14,3 +14,6 @@ class Proxinator:
             return None
 
         return json.loads(result.stdout)
+
+### Example Usage
+# print(Proxinator.getProxy("0x92274793a65a0de42bb4bf19b393930863877630","skjadb_infura_api_key_aslkdnaslkndasdal"))
